@@ -1,3 +1,14 @@
+//colors
+
+$bgColor: #f6f0e5;
+$mainColor: #1a1a1a;
+$accentColor: #cf1616;
+$additionalOneColor: #5f5f5f;
+$additionalTwoColor: #cacaca;
+
+//fonts
+$fontMain: 'Montserrat', sans-serif;
+$fontAccent: 'Montserrat', sans-serif;
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +24,13 @@ img {
 }
 
 body {
-  background: #ccc;
-  color: #990000;
+  background: $bgColor;
+  background-image: url('../img/bg/noise.png');
+
+  font-family: $fontMain;
+  color: $mainColor;
+  font-weight: 300;
+  font-style: normal;
 }
 
 h1,
@@ -23,13 +39,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rimma_sans', sans-serif;
+  font-family: $fontAccent;
+  color: $mainColor;
   font-weight: bold;
   font-style: normal;
 }
 
-body {
-  font-family: 'Montserrat';
-  font-weight: 300;
-  font-style: normal;
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1330px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
 }

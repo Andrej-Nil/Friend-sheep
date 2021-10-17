@@ -1,0 +1,25 @@
+.nav {
+  display: none;
+  @media (min-width: 1170px) {
+    display: flex;
+  }
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  color: $additionalOneColor;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.3s ease;
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    color: $mainColor;
+    cursor: pointer;
+  }
+}
