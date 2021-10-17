@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Rimma_sans';
+  src: url("../font/rimma/Rimma_sans-Bold.woff2") format("woff2"), url("../font/rimma/Rimma_sans-Bold.woff") format("woff"), url("../font/rimma/Rimma_sans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../font/montserrat/Montserrat-Light.ttf") format("woff2"), url("../font/montserrat/Montserrat-Light.woff") format("woff"), url("../font/montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../font/montserrat/Montserrat-Black.woff2") format("woff2"), url("../font/montserrat/Montserrat-Black.woff") format("woff"), url("../font/montserrat/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background: #ccc;
+  color: #990000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rimma_sans', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: normal;
+}
+/*# sourceMappingURL=style.css.map */
