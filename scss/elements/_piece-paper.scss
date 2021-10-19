@@ -1,0 +1,27 @@
+.piece-paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 485px;
+  height: 259px;
+  background-image: url('../../img/other/piece-paper.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  transform: rotate(-10deg) translate(60px, -25px);
+}
+
+.piece-paper__desc {
+  width: 313px;
+
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.piece-paper__text {
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

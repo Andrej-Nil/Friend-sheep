@@ -1,5 +1,13 @@
 @import './font';
 @import './main';
 
+@import './elements/stroke-panel';
+@import './elements/btn';
+@import './elements/piece-paper';
+
 @import './blocks/header';
 @import './blocks/nav';
+@import './blocks/title-screen';
+@import './blocks/title-screen-left';
+@import './blocks/title-screen-right';
+@import './blocks/title-screen-bg';

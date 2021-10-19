@@ -1,0 +1,17 @@
+.title-screen {
+  position: relative;
+  display: flex;
+  min-height: 900px;
+  margin-top: 125px;
+}
+
+.title-screen__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-screen__text {
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 30px;
+}

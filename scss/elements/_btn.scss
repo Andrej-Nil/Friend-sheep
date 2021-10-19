@@ -1,0 +1,37 @@
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 5px;
+  background: $mainColor;
+  cursor: pointer;
+  border: 1px solid $mainColor;
+  user-select: none;
+
+  font-family: $fontAccent;
+  color: $white;
+  font-size: 20px;
+  line-height: 130%;
+  transition: 0.3s;
+  &:hover {
+    background: $accentColor;
+    border: 1px solid $accentColor;
+  }
+
+  &:hover .btn__accent {
+    color: $mainColor;
+  }
+
+  &:active {
+    background: $mainColor;
+    border: 1px solid $accentColor;
+  }
+
+  &:active .btn__accent {
+    color: $accentColor;
+  }
+}
+
+.btn__accent {
+  color: $accentColor;
+  transition: 0.3s;
+}

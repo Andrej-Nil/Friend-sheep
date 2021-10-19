@@ -1,0 +1,22 @@
+.title-screen__bg {
+  width: 779px;
+  height: 955px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.title-screen__man {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.title-screen__red {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  width: 534px;
+  height: 799px;
+  background: $accentColor;
+  mix-blend-mode: multiply;
+}
