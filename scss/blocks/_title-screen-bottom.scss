@@ -1,0 +1,16 @@
+.title-screen__bottom {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: -120px;
+  min-height: 675px;
+  width: 100%;
+  background-image: url('../../img/bg/piece-1.png');
+  //transform: translate(-50%, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 100;
+}
+
+.title-screen__info {
+}

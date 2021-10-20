@@ -1,0 +1,125 @@
+.results {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.results-item {
+  position: relative;
+  width: 241px;
+  margin-right: 198px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover .results-item__circle {
+    display: block;
+    &::before {
+      animation-name: rotation;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  }
+}
+
+.results-item__circle {
+  position: absolute;
+  top: -35%;
+  right: 0;
+  display: none;
+  height: 90px;
+  width: 90px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+.circle-86 {
+  &::before {
+    background-image: url('../../img/number/86-circle.svg');
+  }
+}
+
+.circle-11 {
+  &::before {
+    background-image: url('../../img/number/11-circle.svg');
+  }
+}
+
+.circle-16 {
+  &::before {
+    background-image: url('../../img/number/16-circle.svg');
+  }
+}
+
+.results-item__title {
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 100%;
+  margin: 0 198px 10px 0;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    display: block;
+    height: 57px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 57px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+  }
+}
+
+.num-86 {
+  &::before {
+    background-image: url('../../img/number/86-dark.svg');
+  }
+  &::after {
+    background-image: url('../../img/number/86-white.svg');
+  }
+}
+
+.num-11 {
+  &::before {
+    background-image: url('../../img/number/11-dark.svg');
+  }
+  &::after {
+    background-image: url('../../img/number/11-white.svg');
+  }
+}
+
+.num-16 {
+  &::before {
+    background-image: url('../../img/number/16-dark.svg');
+  }
+  &::after {
+    background-image: url('../../img/number/16-white.svg');
+  }
+}
+
+.results-item__desc {
+  color: $white;
+  font-size: 18px;
+  line-height: 22px;
+}
